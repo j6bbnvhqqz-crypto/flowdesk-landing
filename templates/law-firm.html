@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>正和法律 - 专业法律服务</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}body{font-family:system-ui,-apple-system,sans-serif}
+  .fade-up{opacity:0;transform:translateY(30px);animation:fadeInUp .6s cubic-bezier(.16,1,.3,1) forwards}
+  @keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}
+  .delay-1{animation-delay:.1s}.delay-2{animation-delay:.2s}.delay-3{animation-delay:.3s}
+</style>
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- 导航 -->
+<nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur border-b border-gray-100">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#" class="text-xl font-bold text-gray-900">正和<span class="text-blue-700">法律</span></a>
+    <div class="hidden md:flex gap-8 text-sm text-gray-500">
+      <a href="#services" class="hover:text-blue-700">服务领域</a><a href="#team" class="hover:text-blue-700">律师团队</a><a href="#contact" class="hover:text-blue-700">联系我们</a>
+    </div>
+    <button class="bg-blue-700 hover:bg-blue-800 text-white px-5 py-2 rounded text-sm font-semibold cursor-pointer">免费咨询</button>
+  </div>
+</nav>
+
+<!-- 主视觉 -->
+<section class="pt-28 pb-20 px-6 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 text-white text-center">
+  <div class="max-w-3xl mx-auto">
+    <span class="inline-block bg-blue-500/20 text-blue-300 text-xs font-semibold px-3 py-1 rounded-full mb-6 fade-up">⚖️ 10年专注商事法律服务</span>
+    <h1 class="text-4xl sm:text-5xl font-bold mb-6 fade-up delay-1">
+      让法律为您的企业<br><span class="text-blue-400">保驾护航</span>
+    </h1>
+    <p class="text-gray-400 text-lg mb-8 fade-up delay-2">公司设立、股权架构、合同纠纷、劳动人事——一站式企业法律顾问。资深律师团队，胜诉率 92%。</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4 fade-up delay-3">
+      <button class="bg-blue-600 text-white px-8 py-3.5 rounded font-semibold text-lg hover:bg-blue-500 cursor-pointer">免费法律咨询</button>
+      <button class="border border-gray-500 text-white px-8 py-3.5 rounded font-semibold text-lg hover:border-blue-400 cursor-pointer">了解服务</button>
+    </div>
+  </div>
+</section>
+
+<!-- 服务 -->
+<section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-4">核心服务领域</h2>
+  <p class="text-gray-500 text-center mb-12">覆盖企业全生命周期的法律服务</p>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+      <div class="text-3xl mb-3">🏢</div>
+      <h3 class="font-semibold text-lg mb-2">公司法律服务</h3>
+      <p class="text-gray-500 text-sm">公司设立、股权设计、章程拟定、股东协议、公司变更登记</p>
+    </div>
+    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+      <div class="text-3xl mb-3">📋</div>
+      <h3 class="font-semibold text-lg mb-2">合同纠纷处理</h3>
+      <p class="text-gray-500 text-sm">合同起草审查、违约追偿、买卖合同纠纷、租赁合同纠纷</p>
+    </div>
+    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+      <div class="text-3xl mb-3">👥</div>
+      <h3 class="font-semibold text-lg mb-2">劳动人事</h3>
+      <p class="text-gray-500 text-sm">劳动合同、竞业限制、裁员方案、工伤赔偿、劳动争议仲裁</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 px-6 bg-slate-900 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">需要法律帮助？</h2>
+  <p class="text-gray-400 mb-8">15 分钟内响应，首次咨询免费</p>
+  <button class="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded font-semibold text-lg cursor-pointer">立即免费咨询 →</button>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-8 px-6 text-center text-sm">
+  <p>📍 上海市浦东新区陆家嘴环路 1000 号 | 📞 021-6888-9999</p>
+  <p class="mt-2">© 2024 正和法律. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

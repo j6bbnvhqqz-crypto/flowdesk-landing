@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>云栖瑜伽 - 身心平衡之旅</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}body{font-family:system-ui,-apple-system,sans-serif}
+  .fade-up{opacity:0;transform:translateY(30px);animation:fadeInUp .6s cubic-bezier(.16,1,.3,1) forwards}
+  @keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}
+  .delay-1{animation-delay:.1s}.delay-2{animation-delay:.2s}.delay-3{animation-delay:.3s}
+</style>
+</head>
+<body class="bg-white text-gray-800">
+
+<nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur border-b border-purple-100">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#" class="text-xl font-bold text-gray-900">云栖<span class="text-purple-600">瑜伽</span></a>
+    <div class="hidden md:flex gap-8 text-sm text-gray-500">
+      <a href="#classes" class="hover:text-purple-600">课程</a><a href="#teachers" class="hover:text-purple-600">导师</a><a href="#contact" class="hover:text-purple-600">联系</a>
+    </div>
+    <button class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-sm font-semibold cursor-pointer">免费体验课</button>
+  </div>
+</nav>
+
+<section class="pt-28 pb-20 px-6 bg-gradient-to-br from-purple-50 via-rose-50 to-white text-center">
+  <div class="max-w-3xl mx-auto">
+    <span class="inline-block bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full mb-6 fade-up">🧘 全级别瑜伽课程</span>
+    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 fade-up delay-1">
+      找到身体的<br><span class="text-purple-600">平衡与力量</span>
+    </h1>
+    <p class="text-gray-600 text-lg mb-8 fade-up delay-2">哈他、流瑜伽、空中瑜伽、普拉提——专业国际认证导师团队，小班授课，每班不超过 15 人。</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4 fade-up delay-3">
+      <button class="bg-purple-600 text-white px-8 py-3.5 rounded-full font-semibold text-lg hover:bg-purple-500 cursor-pointer">免费体验课</button>
+      <button class="border border-gray-300 text-gray-700 px-8 py-3.5 rounded-full font-semibold text-lg hover:border-purple-400 cursor-pointer">查看课表</button>
+    </div>
+  </div>
+</section>
+
+<section id="classes" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-12">热门课程</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+      <div class="text-4xl mb-3">🧘‍♀️</div>
+      <h3 class="font-semibold text-lg mb-2">哈他瑜伽</h3>
+      <p class="text-gray-500 text-sm mb-2">基础体式与呼吸法，适合入门</p>
+      <p class="text-purple-600 font-bold">¥1,980/季卡</p>
+    </div>
+    <div class="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+      <div class="text-4xl mb-3">🌊</div>
+      <h3 class="font-semibold text-lg mb-2">流瑜伽</h3>
+      <p class="text-gray-500 text-sm mb-2">动态串联，提升柔韧与力量</p>
+      <p class="text-purple-600 font-bold">¥2,380/季卡</p>
+    </div>
+    <div class="ring-2 ring-purple-400 border border-transparent rounded-xl p-6">
+      <div class="text-4xl mb-3">🪶</div>
+      <h3 class="font-semibold text-lg mb-2">空中瑜伽</h3>
+      <p class="text-gray-500 text-sm mb-2">悬挂训练，释放脊柱压力</p>
+      <p class="text-purple-600 font-bold">¥2,980/季卡</p>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 px-6 bg-purple-900 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">开启你的瑜伽之旅</h2>
+  <p class="text-purple-200 mb-8">首次到店免费体验，不满意不收费</p>
+  <button class="bg-white text-purple-800 px-10 py-4 rounded-full font-semibold text-lg hover:bg-purple-50 cursor-pointer">预约体验 →</button>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-8 px-6 text-center text-sm">
+  <p>📍 成都市高新区天府大道 99 号 | 📞 028-8888-6666</p>
+  <p class="mt-2">© 2024 云栖瑜伽. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

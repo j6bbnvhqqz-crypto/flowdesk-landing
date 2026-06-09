@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>启智教育 - 青少年编程培训</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}body{font-family:system-ui,-apple-system,sans-serif}
+  .fade-up{opacity:0;transform:translateY(30px);animation:fadeInUp .6s cubic-bezier(.16,1,.3,1) forwards}
+  @keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}
+  .delay-1{animation-delay:.1s}.delay-2{animation-delay:.2s}.delay-3{animation-delay:.3s}
+</style>
+</head>
+<body class="bg-white text-gray-800">
+
+<nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur border-b border-gray-100">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#" class="text-xl font-bold text-gray-900">启智<span class="text-emerald-600">教育</span></a>
+    <div class="hidden md:flex gap-8 text-sm text-gray-500">
+      <a href="#courses" class="hover:text-emerald-600">课程</a><a href="#why" class="hover:text-emerald-600">为什么选我们</a><a href="#contact" class="hover:text-emerald-600">联系</a>
+    </div>
+    <button class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-full text-sm font-semibold cursor-pointer">免费试听</button>
+  </div>
+</nav>
+
+<section class="pt-28 pb-20 px-6 bg-gradient-to-br from-emerald-50 to-teal-50 text-center">
+  <div class="max-w-3xl mx-auto">
+    <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full mb-6 fade-up">🎓 6-16岁青少年编程教育</span>
+    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 fade-up delay-1">
+      让孩子领先一步<br><span class="text-emerald-600">学会创造而不是消费</span>
+    </h1>
+    <p class="text-gray-600 text-lg mb-8 fade-up delay-2">Scratch入门 → Python进阶 → AI启蒙，阶梯式课程体系。2000+学员验证，95%家长推荐。</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4 fade-up delay-3">
+      <button class="bg-emerald-600 text-white px-8 py-3.5 rounded-full font-semibold text-lg hover:bg-emerald-500 cursor-pointer">免费试听课</button>
+      <button class="border border-gray-300 text-gray-700 px-8 py-3.5 rounded-full font-semibold text-lg hover:border-emerald-400 cursor-pointer">课程介绍</button>
+    </div>
+  </div>
+</section>
+
+<section id="courses" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-12">课程体系</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+      <div class="text-4xl mb-3">🧩</div>
+      <h3 class="font-semibold text-lg mb-2">Scratch 启蒙</h3>
+      <p class="text-gray-500 text-sm mb-2">6-8岁零基础入门，积木式编程</p>
+      <p class="text-emerald-600 font-bold">¥2,980/学期</p>
+    </div>
+    <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+      <div class="text-4xl mb-3">🐍</div>
+      <h3 class="font-semibold text-lg mb-2">Python 进阶</h3>
+      <p class="text-gray-500 text-sm mb-2">9-12岁，从图形到代码的跨越</p>
+      <p class="text-emerald-600 font-bold">¥3,980/学期</p>
+    </div>
+    <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow ring-2 ring-emerald-400">
+      <div class="text-4xl mb-3">🤖</div>
+      <h3 class="font-semibold text-lg mb-2">AI 启蒙</h3>
+      <p class="text-gray-500 text-sm mb-2">12-16岁，学习大模型应用开发</p>
+      <p class="text-emerald-600 font-bold">¥4,980/学期</p>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 px-6 bg-emerald-900 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">给孩子一个不一样的未来</h2>
+  <p class="text-emerald-200 mb-8">预约免费试听课，零风险体验</p>
+  <button class="bg-white text-emerald-800 px-10 py-4 rounded-full font-semibold text-lg hover:bg-emerald-50 cursor-pointer">立即预约 →</button>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-8 px-6 text-center text-sm">
+  <p>📍 北京市海淀区中关村大街 1 号 | 📞 010-8888-7777</p>
+  <p class="mt-2">© 2024 启智教育. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
