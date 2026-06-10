@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>爱诺宠物医院 - 24小时宠物医疗</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}body{font-family:system-ui,-apple-system,sans-serif}
+  .fade-up{opacity:0;transform:translateY(30px);animation:fadeInUp .6s cubic-bezier(.16,1,.3,1) forwards}
+  @keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}
+  .delay-1{animation-delay:.1s}.delay-2{animation-delay:.2s}.delay-3{animation-delay:.3s}
+</style>
+</head>
+<body class="bg-white text-gray-800">
+
+<nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur border-b border-teal-100">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#" class="text-xl font-bold text-gray-900">爱诺<span class="text-teal-500">宠物</span></a>
+    <div class="hidden md:flex gap-8 text-sm text-gray-500">
+      <a href="#services" class="hover:text-teal-500">医疗服务</a><a href="#team" class="hover:text-teal-500">医生</a><a href="#contact" class="hover:text-teal-500">联系</a>
+    </div>
+    <button class="bg-teal-500 hover:bg-teal-600 text-white px-5 py-2 rounded-full text-sm font-semibold cursor-pointer">急诊预约</button>
+  </div>
+</nav>
+
+<section class="pt-28 pb-20 px-6 bg-gradient-to-br from-teal-50 to-cyan-50 text-center">
+  <div class="max-w-3xl mx-auto">
+    <span class="inline-block bg-teal-100 text-teal-600 text-xs font-semibold px-3 py-1 rounded-full mb-6 fade-up">🐾 24小时急诊 · 10年口碑</span>
+    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 fade-up delay-1">给毛孩子<span class="text-teal-500">最好的照顾</span></h1>
+    <p class="text-gray-600 text-lg mb-8 fade-up delay-2">内科 · 外科 · 皮肤科 · 眼科 · 影像科。进口 DR 数字影像、全自动生化仪、独立住院部。</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4 fade-up delay-3">
+      <button class="bg-teal-500 text-white px-8 py-3.5 rounded-full font-semibold text-lg hover:bg-teal-400 cursor-pointer">在线问诊</button>
+      <button class="border border-gray-300 text-gray-700 px-8 py-3.5 rounded-full font-semibold text-lg hover:border-teal-300 cursor-pointer">预约挂号</button>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-12">医疗服务</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="border rounded-xl p-6 hover:shadow-md transition-shadow"><div class="text-4xl mb-3">🏥</div><h3 class="font-semibold mb-2">体检套餐</h3><p class="text-gray-500 text-sm">血常规+生化+B超</p><p class="text-teal-500 font-bold mt-2">¥299 起</p></div>
+    <div class="border rounded-xl p-6 hover:shadow-md transition-shadow ring-2 ring-teal-400"><div class="text-4xl mb-3">⚕️</div><h3 class="font-semibold mb-2">绝育手术</h3><p class="text-gray-500 text-sm">微创 · 住院观察 · 术后护理</p><p class="text-teal-500 font-bold mt-2">¥680 起</p></div>
+    <div class="border rounded-xl p-6 hover:shadow-md transition-shadow"><div class="text-4xl mb-3">💉</div><h3 class="font-semibold mb-2">疫苗驱虫</h3><p class="text-gray-500 text-sm">进口疫苗 · 体内外驱虫</p><p class="text-teal-500 font-bold mt-2">¥129 起</p></div>
+  </div>
+</section>
+
+<section class="py-20 px-6 bg-teal-900 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">24 小时急诊守护</h2>
+  <p class="text-teal-200 mb-8">📞 急诊热线：021-8888-0000</p>
+  <button class="bg-white text-teal-800 px-10 py-4 rounded-full font-semibold text-lg hover:bg-teal-50 cursor-pointer">立即咨询 →</button>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-8 px-6 text-center text-sm"><p>📍 北京市朝阳区望京西路 55 号 | 📞 010-8888-0000 | 🕐 24小时</p><p class="mt-2">© 2024 爱诺宠物医院. All rights reserved.</p></footer>
+</body>
+</html>

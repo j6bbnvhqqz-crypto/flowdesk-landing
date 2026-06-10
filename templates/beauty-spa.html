@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>花漾美学 - 轻奢美容SPA</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}body{font-family:system-ui,-apple-system,sans-serif}
+  .fade-up{opacity:0;transform:translateY(30px);animation:fadeInUp .6s cubic-bezier(.16,1,.3,1) forwards}
+  @keyframes fadeInUp{to{opacity:1;transform:translateY(0)}}
+  .delay-1{animation-delay:.1s}.delay-2{animation-delay:.2s}.delay-3{animation-delay:.3s}
+</style>
+</head>
+<body class="bg-white text-gray-800">
+
+<nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur border-b border-pink-100">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#" class="text-xl font-bold text-gray-900">花漾<span class="text-pink-500">美学</span></a>
+    <div class="hidden md:flex gap-8 text-sm text-gray-500">
+      <a href="#services" class="hover:text-pink-500">项目</a><a href="#about" class="hover:text-pink-500">关于</a><a href="#contact" class="hover:text-pink-500">联系</a>
+    </div>
+    <button class="bg-pink-500 hover:bg-pink-600 text-white px-5 py-2 rounded-full text-sm font-semibold cursor-pointer">预约体验</button>
+  </div>
+</nav>
+
+<section class="pt-28 pb-20 px-6 bg-gradient-to-br from-pink-50 via-rose-50 to-white text-center">
+  <div class="max-w-3xl mx-auto">
+    <span class="inline-block bg-pink-100 text-pink-600 text-xs font-semibold px-3 py-1 rounded-full mb-6 fade-up">✨ 轻奢美容 SPA</span>
+    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 fade-up delay-1">宠爱自己<span class="text-pink-500">每一刻</span></h1>
+    <p class="text-gray-600 text-lg mb-8 fade-up delay-2">日式皮肤管理 · 韩式半永久 · 轻医美。国际认证美容师团队，进口院线产品。给肌肤真正需要的呵护。</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4 fade-up delay-3">
+      <button class="bg-pink-500 text-white px-8 py-3.5 rounded-full font-semibold text-lg hover:bg-pink-400 cursor-pointer">预约护理</button>
+      <button class="border border-gray-300 text-gray-700 px-8 py-3.5 rounded-full font-semibold text-lg hover:border-pink-300 cursor-pointer">查看项目</button>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-12">明星项目</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="border rounded-xl p-6 hover:shadow-md transition-shadow"><div class="text-4xl mb-3">💆‍♀️</div><h3 class="font-semibold mb-2">日式深层清洁</h3><p class="text-gray-500 text-sm">水素焕肤 + 超声波导入</p><p class="text-pink-500 font-bold mt-2">¥398 / 次</p></div>
+    <div class="border rounded-xl p-6 hover:shadow-md transition-shadow ring-2 ring-pink-400"><div class="text-4xl mb-3">💉</div><h3 class="font-semibold mb-2">水光针</h3><p class="text-gray-500 text-sm">韩国进口玻尿酸</p><p class="text-pink-500 font-bold mt-2">¥1,280 / 次</p></div>
+    <div class="border rounded-xl p-6 hover:shadow-md transition-shadow"><div class="text-4xl mb-3">🌸</div><h3 class="font-semibold mb-2">韩式半永久</h3><p class="text-gray-500 text-sm">自然雾眉 + 美瞳线</p><p class="text-pink-500 font-bold mt-2">¥1,980 起</p></div>
+  </div>
+</section>
+
+<section class="py-20 px-6 bg-pink-900 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">新客专享 ¥99 体验</h2>
+  <p class="text-pink-200 mb-8">含皮肤检测 + 基础护理</p>
+  <button class="bg-white text-pink-800 px-10 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 cursor-pointer">立即预约 →</button>
+</section>
+
+<footer class="bg-gray-900 text-gray-400 py-8 px-6 text-center text-sm"><p>📍 广州市天河区体育西路 88 号 | 📞 020-8888-6666</p><p class="mt-2">© 2024 花漾美学. All rights reserved.</p></footer>
+</body>
+</html>
